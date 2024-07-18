@@ -1,0 +1,31 @@
+package Java.WrongQuestions;
+
+import java.util.Scanner;
+
+public class arraygretwo {
+    static int largestElement(int[] arr, int n) {
+        // Write your code here.
+        Scanner sc = new Scanner(System.in);
+        n = sc.nextInt();
+        int[] arr = new int[n];
+
+        for (int i = 0; i < N; i++) {
+            System.out.println("Enter the element in the array :");
+            arr[i] = sc.nextInt();
+        }
+        return n;
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int max = Integer.MIN_VALUE;
+        for (int i = 0; i < N; i++) {
+            if (arr[i] > max) {
+                max = arr[i];
+
+            }
+        }
+        System.out.println(max);
+    }
+}
